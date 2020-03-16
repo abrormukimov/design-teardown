@@ -121,13 +121,14 @@ section {
   grid-template-rows: repeat(1, minmax(350px,1fr));
 }
 
-.other-articles {
+.other-articles, .more-links {
   border: 1px solid black;
   display: flex;
   justify-content: center;
 }
 
-.other-articles > h4 {
+.other-articles > h4,
+.more-links > h4 {
   border-bottom: 1px solid black;
 }
 
@@ -176,4 +177,15 @@ section {
 .community-text {
   width: 80%;
   display: inline-block;
+}
+
+.art-ctn {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(300px, 1fr));
+  grid-template-rows: repeat(3, minmax(400px, 1fr));
+  grid-gap: 20px;
+}
+
+.oth-article {
+  border: 1px solid black;
 }
