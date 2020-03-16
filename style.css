@@ -108,6 +108,22 @@ body{
   color: white;
 }
 
+.section1 {
+  background: #bc3428;
+}
+
+.section1 {
+  background: #c7372a;
+}
+
+.section3 {
+  background: #b13125;
+}
+
+.section4 {
+  background: #bc3428;
+}
+
 .user-details{
   display: flex;
   align-items: center;
