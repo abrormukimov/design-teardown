@@ -130,3 +130,50 @@ section {
 .other-articles > h4 {
   border-bottom: 1px solid black;
 }
+
+.eth-design{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: cyan;
+}
+
+.eth-ctn {
+  padding-top: 7%;
+  width: 45%;
+  margin: 0 auto;
+}
+
+.eth-ctn > button{ 
+  background: transparent;
+  background-color: white;
+  width: 60%;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.white-text {
+  color: white;
+}
+
+.design-img {
+  min-width: 80%;
+  min-height: 350px;
+  background-color: gray;
+}
+
+.community-links{
+  display: flex;
+
+}
+
+.community-img {
+  width: 20%;
+  display: inline-block;
+  min-height: 200px;
+}
+
+.community-text {
+  width: 80%;
+  display: inline-block;
+}
