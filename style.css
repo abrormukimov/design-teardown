@@ -17,25 +17,61 @@ body{
 }
 
 .head-icons {
-  display: flex;
   text-align: center;
+  background: #d33a2c;
 }
 
+.h-icons {
+  display: flex;
+  padding: 10px 1px;
+}
 
 .h-icon { 
   flex:1;
   min-height: 100px;
-  border: 1px solid grey;
+  /* border: 1px solid grey; */
+  align-content: center;
+  padding: 1px 1px;
+  margin-top: 10px;
+  color: white;
 }
 
-.logo {
-  flex:1;
-  border: 1px solid grey;
+.h-icon > img {
+  width: 35px;
+  height: 35px;
 }
 
-.h-icons {
-  flex: 9;
+
+.logo-img {
+  display: inline-block;
+  /* border: 1px solid grey; */
+  width: 210px;
+  height: 100%;
+  margin-top: 10px;
+  padding-left: 40px;
+  background: #d33a2c;
+  
+}
+
+.t-btn {
   display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.topics-btn {
+  border: 3px solid white;
+  background-color: #d33a2c;
+  border-radius: 10px;
+  padding: 10px 28px;
+  color: white;
+  font-size: 20px;
+  font-weight: 900;
+  background-image: url(images/search.png);
+  background-repeat: no-repeat;
+  background-position: 5px center;
+
 }
 
 .main-ctn {
