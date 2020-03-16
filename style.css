@@ -189,3 +189,18 @@ section {
 .oth-article {
   border: 1px solid black;
 }
+
+.design-system {
+  padding: 50px;
+  min-height: 250px;
+}
+
+.guides {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(300px,1fr));
+}
+
+.smashimg{
+  grid-column: span 2;
+  min-height: 450px;
+}
