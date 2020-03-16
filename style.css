@@ -128,7 +128,8 @@ section {
 }
 
 .other-articles > h4,
-.more-links > h4 {
+.more-links > h4,
+.other-articles > h4 {
   border-bottom: 1px solid black;
 }
 
@@ -203,4 +204,47 @@ section {
 .smashimg{
   grid-column: span 2;
   min-height: 450px;
+}
+
+.other-articles2 {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  background: #a22222;
+}
+
+.top-ft {
+  text-align: center;
+}
+
+.ft-links {
+  display: flex;
+  justify-content: flex-start;
+  width: 80%;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.f-links {
+  padding: 10px 60px 10px 2px;
+}
+
+.ft-bt-ctn {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+.contacts {
+  display: flex;
+  list-style: none;
+  padding: 1px;
+
+}
+
+.contacts > li {
+  padding: 5px;
 }
