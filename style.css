@@ -92,3 +92,41 @@ section {
   min-width: 50px;
   min-height: 50px;
 }
+
+.latest-posts2 {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, minmax(350px,1fr));
+}
+
+.member-btn-ctn {
+  text-align: center;
+}
+
+.member-btn {
+  border: none;
+  border-radius: 13px;
+  padding: 10px 40px;
+  font-size: 15px;
+  font-weight: 700;
+  /* width: 50%; */
+  margin: 0 auto;
+}
+
+.latest-posts3 {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, minmax(350px,1fr));
+}
+
+.other-articles {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+}
+
+.other-articles > h4 {
+  border-bottom: 1px solid black;
+}
