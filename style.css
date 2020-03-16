@@ -76,11 +76,11 @@ body{
 
 .main-ctn {
   position: relative;
-
 }
 
 .ctn {
   display: grid;
+  background-color: #d33a2c;
   grid-template-columns: repeat(2, minmax(500px, 1fr));
   grid-template-rows: repeat(2, minmax(600px, 1fr));
   border: 1px solid red;
@@ -107,6 +107,46 @@ section {
   border: 1px solid black;
   padding: 0;
   margin: 0;
+}
+
+.section {
+  padding: 40px;
+  padding-top: 140px ;
+  color: white;
+}
+
+.user-details{
+  display: flex;
+  align-items: center;
+
+}
+
+.user-details-img {
+  padding-right: 15px;
+}
+
+.user-details-text{
+  display: flex;
+  align-items: center;
+}
+
+.user-details-text > h2 {
+  padding-right: 8px;;
+}
+
+
+.user-img {
+  max-width: 45px;
+  max-height: 45px;
+}
+
+.user-content{
+  font-size: 26px;
+}
+
+.user-content > a {
+  text-decoration: none;
+  color: white;
 }
 
 .latest-posts{
