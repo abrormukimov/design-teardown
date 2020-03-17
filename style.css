@@ -18,7 +18,7 @@ body{
 
 .head-icons {
   text-align: center;
-  background: #d33a2c;
+  background: gray;
 }
 
 .h-icons {
@@ -41,14 +41,8 @@ body{
 }
 
 
-.logo-img {
-  display: inline-block;
-  width: 210px;
-  height: 100%;
-  margin-top: 10px;
-  padding-left: 40px;
-  background: #d33a2c;
-  
+.logo {
+  padding: 80px 120px 40px 80px;
 }
 
 .t-btn {
@@ -78,10 +72,8 @@ body{
 
 .ctn {
   display: grid;
-  background-color: #d33a2c;
   grid-template-columns: repeat(2, minmax(500px, 1fr));
   grid-template-rows: repeat(2, minmax(600px, 1fr));
-  border: 1px solid red;
 }
 
 .title {
@@ -109,19 +101,19 @@ body{
 }
 
 .section1 {
-  background: #bc3428;
+  background:#4d4e4d
 }
 
-.section1 {
-  background: #c7372a;
+.section2 {
+  background:#3e3f3e
 }
 
 .section3 {
-  background: #b13125;
+  background:#414241
 }
 
 .section4 {
-  background: #bc3428;
+  background:#4e504e
 }
 
 .user-details{
@@ -193,7 +185,7 @@ body{
   bottom: 0;
   left: 0;
   padding: 20px;
-  background-color: #006fc6;
+  background-color: #474849;
   min-width: 50px;
   min-height: 50px;
 }
@@ -203,6 +195,10 @@ body{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(1, minmax(350px,1fr));
+}
+
+.smash-post{
+  background-color: #767a76;
 }
 
 .member-btn-ctn {
