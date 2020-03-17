@@ -240,7 +240,7 @@ body{
 .other-articles > h4,
 .more-links > h4,
 .other-articles > h4 {
-  border-bottom: 4px solid black;
+  border-bottom: 4px solid gray;
 }
 
 .eth-design{
@@ -303,18 +303,66 @@ body{
 
 .art-ctn {
   display: grid;
+  background-color: #c4cac4;
   grid-template-columns: repeat(2, minmax(300px, 1fr));
-  grid-template-rows: repeat(3, minmax(400px, 1fr));
+  grid-template-rows: repeat(3, minmax(250px, 1fr));
   grid-gap: 20px;
+  padding: 40px;
 }
 
 .oth-article {
-  border: 1px solid black;
+  padding: 30px;
+  display: flex;
+}
+
+.art-img {
+  border: 5px solid gray;
+  border-radius: 10px;
+  padding: 5px;
+  width: 100px;
+  height: 60px;
 }
 
 .design-system {
-  padding: 50px;
-  min-height: 250px;
+  padding: 30px;
+  display: flex;
+  background-color: #767a76;
+  color: white;
+}
+
+.design-system > h1 {
+  font-size: 36px;
+  margin-top: 5px;
+}
+
+.design-system > h2 {
+  margin-bottom: 10px;
+}
+
+.design-content {
+  width: 80%;
+}
+
+.design-system-img {
+  width: 15%;
+  background-color: #3e3f3e;
+  display: inline-block;
+}
+
+.design-btn {
+  padding: 15px;
+  background: white;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.art-content {
+  padding-left: 20px;
+}
+
+.art-content > h2 {
+  padding-top: 8px;
+  margin-top: 0;
 }
 
 .guides {
