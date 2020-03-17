@@ -248,7 +248,7 @@ body{
   /* height: 100%; */
   text-align: center;
   background-color: rgb(162, 168, 168);
-  padding: 20px;
+  /* padding: 20px; */
 }
 
 .eth-ctn {
@@ -326,6 +326,7 @@ body{
 .design-system {
   padding: 30px;
   display: flex;
+  justify-content: space-around;
   background-color: #767a76;
   color: white;
 }
@@ -340,7 +341,7 @@ body{
 }
 
 .design-content {
-  width: 80%;
+  width: 60%;
 }
 
 .design-system-img {
@@ -368,11 +369,54 @@ body{
 .guides {
   display: grid;
   grid-template-columns: repeat(3, minmax(300px,1fr));
+  background-color: rgb(245, 240, 240);
 }
 
-.smashimg{
+.guide {
+  padding: 30px;
+}
+
+.guide > h2 {
+  margin-left: 40px;
+  font-size: 30px;
+}
+.guide > ul {
+  margin-left: 40px;
+}
+
+.guide > ul > li {
+  font-size: 20px;
+  padding: 7px 0 7px 0;
+}
+
+.guide-smash {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 50px;
+  background: rgb(94, 90, 90);
+  color: white;
+  padding: 20px 0;
+}
+
+.guide-smash > p {
+  padding: 20px 110px;
+}
+
+.smashimg {
   grid-column: span 2;
-  min-height: 450px;
+  height: 800px;
+  /* min-height: 450px; */
+}
+
+.guide-img {
+  width: 420px;
+  height: 440px;
+  background: gray;
+  border-radius: 5px;
+  margin: auto;
+  padding: 10px 50px;
 }
 
 .other-articles2 {
