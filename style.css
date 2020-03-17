@@ -16,6 +16,11 @@ body{
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+  color: inherit
+}
+
 .head-icons {
   text-align: center;
   background: gray;
@@ -426,11 +431,14 @@ body{
 }
 
 .footer {
-  background: #a22222;
+  background: gray;
+  padding-top: 50px;
+  color: white;
 }
 
 .top-ft {
   text-align: center;
+  margin-bottom: 40px;
 }
 
 .ft-links {
@@ -443,19 +451,57 @@ body{
 
 .f-links {
   padding: 10px 60px 10px 2px;
+  font-size: 18px;
 }
 
 .ft-bt-ctn {
   display: grid;
   grid-template-columns: repeat(3, minmax(300px, 1fr));
+  grid-template-columns: 1fr 2fr 1fr;
   grid-gap: 20px;
+  justify-content: center;
+}
+
+.ft-img1,
+.ft-img2 {
+  border: 3px solid gray;
+  background: rgb(71, 68, 68);
+  border-radius: 8px;;
+  margin-bottom: 10px;
+}
+
+.ft-img1 {
+  margin-left: 60px;
+}
+
+.ft-img2 {
+  margin-right: 60px;
+}
+.ft-contents-ctn {
+  padding-bottom: 40px;
+}
+
+.ft-contents{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.ft-contents > p {
+  margin: 5px auto;
+}
+
+.ft-contents  span {
+  font-size: smaller;
 }
 
 .contacts {
   display: flex;
   list-style: none;
   padding: 1px;
-
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .contacts > li {
