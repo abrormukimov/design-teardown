@@ -15,7 +15,7 @@ Gray scale layout of smashing magazine
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/abrormukimov/apple-page/15b9f488b1b234ffaa348be62a368104e6bfe3b8/index.html)
+[Live Demo Link](https://rawcdn.githack.com/abrormukimov/design-teardown/6b5422bb7194fee912060fde1a6e455f0c280d25/index.html)
 
 ## Getting Started
 
